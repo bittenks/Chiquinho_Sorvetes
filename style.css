@@ -86,7 +86,7 @@ text-decoration: none;
     display: inline-block;
     margin-top: 20px;
     padding: 8px 20px;
-    background: blue;
+    background: red;
     color: #fff;
     border-radius: 40px;
     font-weight: 500;
@@ -116,4 +116,26 @@ transform: translateY(-50%);
 display: flex;
 justify-content: center;
 align-items: center;
+flex-direction: column;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+    filter: invert(1);
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: blue;
+    clip-path: circle(600px at right 800px);
 }
