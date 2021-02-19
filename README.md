@@ -18,3 +18,7 @@ Como futuro vou fazer a responsividade e colocar interações para mudar o sorve
 https://bittenks.github.io/Chiquinho_Sorvetes/
 
 ![alt text](https://github.com/bittenks/Chiquinho_Sorvetes/blob/master/images/print.png)
+
+### Responsivo <br/>
+
+![alt text](https://github.com/bittenks/Chiquinho_Sorvetes/blob/master/chiquinho-responsive.gif)
