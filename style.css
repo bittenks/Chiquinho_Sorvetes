@@ -10,11 +10,7 @@
     font-family: 'Poppins', sans-serif;
     
 }
-body {
-    zoom: 0.80 ;/* Coloca o zoom em 200% */
-    overflow-y:hidden;
-overflow-x:hidden;
-}
+
 
 section {
    position: relative;
@@ -157,8 +153,13 @@ flex-direction: column;
 }
 
 
-@media (max-width:991px)
+@media (max-width:1366px)
 {
+    body {
+        zoom: 0.80 ;/* Coloca o zoom em 200% */
+        overflow-y:hidden;
+    overflow-x:hidden;
+    }
     header {
         padding: 20px;
     }
