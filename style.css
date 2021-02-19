@@ -73,7 +73,7 @@ text-decoration: none;
     font-weight: 500;
 }
 .content .textBox h2 span {
-    color: blue;
+    color: #387dab;
     font-size: 1.2em;
     font-weight: 900;
 }
@@ -136,6 +136,6 @@ flex-direction: column;
     left: 0;
     width: 100%;
     height: 100%;
-    background: blue;
+    background: #4a47a3;
     clip-path: circle(600px at right 800px);
 }
