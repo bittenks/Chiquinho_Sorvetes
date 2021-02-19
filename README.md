@@ -4,7 +4,7 @@ foi muito importante para as cidades vizinhas ter uma franquia que começou por 
 
 ### INSPIRAÇÃO <br />
 Eu fiz baseado em um vídeo de um youtuber que estava fazendo para Starbucks.
-<br />
+<br/>
 Eu pensei em mudar para algo que fosse importante para mim, e alterei o tema para Chiquinhos sorvetes
 ### <i> O QUE EU APRENDI <i/> 
 
