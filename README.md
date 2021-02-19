@@ -8,7 +8,7 @@ Eu fiz baseado em um vídeo de um youtuber que estava fazendo para Starbucks.
 Eu pensei em mudar para algo que fosse importante para mim, e alterei o tema para Chiquinhos sorvetes
 ### <i> O QUE EU APRENDI <i/> 
 
-Aprendi muito mais de CSS, algo que eu não sabia era o clip-path qua ajuda bastante para fazer esses circulos, e  ainda melhor que tem como fazer mudar a cor dele
+Aprendi muito mais de CSS,algo que eu não sabia era o clip-path qua ajuda bastante para fazer esses circulos, e  ainda melhor que tem como fazer mudar a cor dele
 por interação. Eu ainda sei muito pouco sobre programação e "codar" , estou decidindo aprender na prática com projetos como esse.
 <br/> 
 Como futuro vou fazer a responsividade e colocar interações para mudar o sorvete
