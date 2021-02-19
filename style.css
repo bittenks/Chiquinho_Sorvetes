@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -75,7 +76,8 @@ text-decoration: none;
 .content .textBox h2 span {
     color: #387dab;
     font-size: 1.2em;
-    font-weight: 900;
+    font-weight: 1000;
+    font-display: bold;
 }
 
 .content .textBox p {
@@ -138,4 +140,20 @@ flex-direction: column;
     height: 100%;
     background: #4a47a3;
     clip-path: circle(600px at right 800px);
+}
+.rodape {
+    grid-area: f / f / f / f;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+@media (max-width:991px)
+{
+    header {
+        padding: 20px;
+    }
+
 }
