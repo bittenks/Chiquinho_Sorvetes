@@ -46,6 +46,9 @@ header ul{
     display: flex;
 }
 
+
+
+
 header ul li {
     list-style: none;
 }
@@ -56,6 +59,8 @@ color: #333;
 font-weight: 400;
 margin-left: 40px;
 text-decoration: none;
+
+
 }
 .content {
     position: relative;
@@ -154,17 +159,123 @@ flex-direction: column;
 }
 @media (max-width:991px)
 {
+
+    .toggle {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background: url(./images/menu.png);
+        background-size: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: invert(1);
+        z-index: 11;
+    }
+    .toggle.active {
+        position: fixed;
+        right: 20px;
+        background: url(./images/close.png);
+        background-size: 25px;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+    }
+    header ul.navigation.active {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #fff;
+        z-index: 10;
+    
+    }
+    header ul.navigation.active li a {
+        display: inline-block;
+        color: #333;
+        font-size: 2em;
+        font-weight: 400;
+        margin-left: 40px;
+        text-decoration: none;
+    }
+
+    *{
+        overflow-y:auto;
+        overflow-x:auto;
+    }
+  
     
     header {
         padding: 20px;
     }
 
     header .logo {
-        position: relative;
+       
         max-width: 60px;
     }
 
+    header ul {
+        
+        display: none;
+    }
+
+    section{
+        padding: 20px;
+    }
+
+    .content {
+        flex-direction: column;
+        margin-top: 100px;
+        overflow-x: hidden;
+    }
+
+    .content .textBox h2 {
+        color: #333;
+        font-size: 2.5rem;
+        overflow-y:hidden;
+        overflow-x:hidden;
+    }
+
+    .content .textBox {
+        max-width: 100%;
+
+    }
+    .content .imgBox {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .content .imgBox img {
+        max-width: 250px;
+    }
+
+    .circle {
+        overflow-y:hidden;
+        overflow-x:hidden;
+       
+        
+        clip-path: circle(400px at center bottom);
+    }
+
+    .sci {
+        background: #017143;
+        right: 0;
+        width: 50px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px ;
+    }
+
 }
+
+
+
+
+
 
 
 @media (width:1366px)
