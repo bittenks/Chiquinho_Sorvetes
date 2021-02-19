@@ -152,9 +152,22 @@ flex-direction: column;
     -webkit-box-pack: center;
     justify-content: center;
 }
+@media (max-width:991px)
+{
+    
+    header {
+        padding: 20px;
+    }
+
+    header .logo {
+        position: relative;
+        max-width: 60px;
+    }
+
+}
 
 
-@media (max-width:1366px)
+@media (width:1366px)
 {
     body {
         zoom: 0.80 ;/* Coloca o zoom em 200% */
